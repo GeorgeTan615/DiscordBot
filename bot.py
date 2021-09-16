@@ -76,6 +76,6 @@ async def on_message(message):
 
         await message.channel.send(members)
 
-    hello 
+    hello rgr
 
 client.run(TOKEN)
