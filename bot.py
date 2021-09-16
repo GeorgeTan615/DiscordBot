@@ -56,6 +56,7 @@ async def on_message(message):
     if 'cherris' in message.content.lower() or 'jiahui' in message.content.lower():
         await message.channel.send('I see my baby\'s name hmmm')
 
+
     if 'love' in message.content.lower():
         gif_url_choices = ['https://media.giphy.com/media/26FLdmIp6wJr91JAI/giphy.gif?cid=ecf05e47zix60aka8u0lb1bqcwe89mw3j64a00q50xfdnb6u&rid=giphy.gif&ct=g',
                             'https://media.giphy.com/media/4N1wOi78ZGzSB6H7vK/giphy.gif?cid=ecf05e47rvlc9xtma3qm5j2wdqydgparv5tgldr60k9c4l7g&rid=giphy.gif&ct=g',
