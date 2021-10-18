@@ -47,14 +47,6 @@ async def on_message(message):
     if 'happy birthday' in message.content.lower():
         await message.channel.send('WOOHOO ITS YOUR BIG DAY 🎂🎉 HAPPY BIRTHDAYYY 🥳')
 
-    if 'hate you' in message.content.lower():
-        await message.channel.send('but i love you <3')
-
-    if 'geeson' in message.content.lower() or 'george' in message.content.lower():
-        await message.channel.send('I hear a handsome guy\'s name heheh')
-
-    if 'cherris' in message.content.lower() or 'jiahui' in message.content.lower():
-        await message.channel.send('I see my baby\'s name hmmm')
 
 
     if 'love' in message.content.lower():
