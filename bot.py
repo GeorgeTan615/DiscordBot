@@ -34,15 +34,6 @@ async def on_member_join(member):
 async def on_message(message):
     if message.author == client.user:       #important to check this to prevent handling a message that the bot sent, prevent recurisve calls
         return
-    
-    brooklyn_99_quotes = [
-        'I\'m the human form of the 💯 emoji.',
-        'Bingpot!',
-        (
-            'Cool. Cool cool cool cool cool cool cool, '
-            'no doubt no doubt no doubt no doubt.'
-        ),
-    ]
 
     if 'happy birthday' in message.content.lower():
         await message.channel.send('WOOHOO ITS YOUR BIG DAY 🎂🎉 HAPPY BIRTHDAYYY 🥳')
